@@ -44,7 +44,7 @@ jobs:
     strategy:
       matrix:
         node-version:
-          - 12.x
+          - 14.x
     # needs: test
     steps:
     - uses: actions/checkout@v2
